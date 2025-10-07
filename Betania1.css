@@ -1,0 +1,207 @@
+@media only screen and ( min-width: 950px ) {
+    /* breites Browserfenster */
+   }
+@media only screen and ( max-width: 440px ) {
+    /* mobile Geräte */
+}
+@media only screen and ( min-width: 440px ) and ( max-width: 950px ) {
+    /* Tablets und mittlere Bildschirme */
+}
+header{
+    position:fixed;
+    top: 0px;
+    z-index: 1;
+    background-image:url("Betania4.jpg");
+    background-size: cover;
+    width: 100%;
+    font-family: sans-serif;
+}
+body, html{
+    height: 100%;
+}
+#motto{
+    text-align: right;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding-right: 50px;
+    
+}
+#acasa-section{
+    display:flex ;            /* Bild und Text nebeneinander */
+    align-items: center;      /* vertikal zentrieren */
+    gap: 90px;
+}
+#acasa img{
+    border-radius: 20px;
+    margin-left: 5px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+
+    -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: cover;
+
+    mask-image: radial-gradient(circle, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: cover;
+}
+#new{
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline ;
+    color: rgb(255, 255, 255);
+}
+#new1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+#new2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+}
+#locatie img{
+    border-radius: 20px;
+    margin-left: 10px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+
+    -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: cover;
+
+    mask-image: radial-gradient(circle, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: cover;
+}
+#locatie-section{
+    display:flex ;            /* Bild und Text nebeneinander */
+    align-items: center;      /* vertikal zentrieren */
+    gap: 90px;
+}
+#Locatie{
+    font-size: 30px;
+    background-color:(180, 187, 224);
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
+    text-decoration: none;
+    a:link, a:visited {
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+       }
+    text-align: right;
+    margin-right: 10px;
+}
+#Live{
+    font-size: 30px;
+    a:link, a:visited {
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+       }
+    text-align: center;
+}
+table{
+    width:90%;
+    text-align: center;
+    font-size: 35px;
+}
+nav{
+    margin-top: 60px;
+}
+#menu{
+    text-align: right;
+    margin-right: 70px;
+    font-size: 20px;
+    size: 10px;
+}
+#menu li{
+    display: inline;
+    margin: 50px;
+    list-style-type: none; 
+    color: (180, 187, 224);
+}
+#menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 10px;
+    color: rgb(0, 0, 0);
+}
+.schatten{
+    background-image:url("schatten.png");
+    background-repeat: repeat;
+    height: 12px;
+}
+P,h1{
+    margin: 0px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+    background-color:  rgb(27, 29, 39);
+    font-family: sans-serif;
+}
+section{
+    margin-top: 140px;
+}
+
+#clear{
+    clear:left;
+}
+li{
+    margin-left: 20px;
+}
+#menu li a:hover{
+    color: rgb(130, 20, 42);
+}
+#beschriftung2{
+    text-align: left;
+}
+#videos-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* zentriert horizontal */
+  justify-content: center;
+  text-align: center;
+  background-color: #1e1f26; /* gleiche Farbe wie Body */
+  color: white;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+#video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  max-width: 1000px;
+  background-color: transparent;
+}
+.video-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 3px solid #fff;
+  border-radius: 15px;
+  background-color: #1e1f26;  /* gleich wie Hintergrund */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+.video-box iframe {
+  border: none;
+  border-radius: 10px;
+  display: block;
+}
+@media only screen and (max-width: 950px) {
+  #video-container {
+    flex-direction: column;
+  }
+}
