@@ -103,6 +103,10 @@ body, html{
        }
     text-align: center;
 }
+#livee{
+    font-size: 20px;
+    color: (255, 255, 255);
+}
 table{
     width:90%;
     text-align: center;
@@ -204,4 +208,5 @@ li{
   }
 
 }
+
 
