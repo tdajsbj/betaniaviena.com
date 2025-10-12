@@ -182,7 +182,7 @@ li{
   align-items: center;
   gap: 30px;
   width: 100%;
-  max-width: 1000px;
+  max-width: 500px;
   background-color: transparent;
 }
 .video-box {
@@ -204,4 +204,5 @@ li{
   #video-container {
     flex-direction: column;
   }
+
 }
